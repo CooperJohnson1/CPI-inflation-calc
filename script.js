@@ -31,6 +31,7 @@ function estimateCPI(year) {
   return null
 }
 // ^ chat gpt
+// looked up on google how to animate
 let chartThing = null
 
 function animateResultDisplay(startAmount, endAmount, y1, y2) {
@@ -55,7 +56,7 @@ calculateBtn.addEventListener("click", function () {
   let y1 = parseInt(fromYearInput.value)
   localStorage.setItem("fromYear", y1)
   let y2 = parseInt(toYearInput.value)
-
+//
   if (isNaN(amt) || isNaN(y1) || isNaN(y2)) {
     result.textContent = "Please enter a valid amount and years."
     return
@@ -66,14 +67,14 @@ calculateBtn.addEventListener("click", function () {
     result.textContent = "Years must be between 1975 and 2025."
     return
   }
-
+// used Help from Finn Carr 
   let adj = (c2 / c1) * amt
-//
+
   animateResultDisplay(amt, adj, y1, y2)
 
   funFact.textContent = "Fun Fact: " + facts[Math.floor(Math.random() * facts.length)]
-// chat gpt ^
-  // build graph for y1-5 to y1+5
+
+
   let labels = []
   let dataPoints = []
   for (let yr = y1 - 5; yr <= y1 + 5; yr++) {
@@ -84,7 +85,7 @@ calculateBtn.addEventListener("click", function () {
     }
   }
 
-  // draw/update chart -- chat got
+  // Chat gpt formulated the graph but I made the style for it
   let ctx = document.getElementById("inflationChart").getContext("2d")
   if (chartThing) chartThing.destroy()
   chartThing = new Chart(ctx, {
