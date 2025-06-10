@@ -12,6 +12,10 @@ Offers a fun, student friendly inflation quiz with hints and answer feedback.
 How to Use the Website
 Visit the live site: https://cooperjohnson1.github.io/CPI-inflation-calc/
 
+Screen shots:
+(![CPI-calculator (2)](https://github.com/user-attachments/assets/774d1cb4-f8f5-4dce-a035-8dce1e8737f6)
+
+
 Enter a dollar amount, select a "from" and "to" year.
 
 View the adjusted value with a chart and fun facts.
