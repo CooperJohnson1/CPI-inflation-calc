@@ -42,3 +42,4 @@
 ### quiz.js	JavaScript for the quiz logic: tracks answers, hints, and question flow.
 
 ## cites: Chat GPT used to debug and code some of the harder parts of the code
+### and used Google to look up the Hex code for colors and names of colors and specific heights and how to add heights for style.
