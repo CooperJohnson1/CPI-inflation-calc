@@ -5,7 +5,7 @@
 ## What the Website Does
 ### Converts dollar values between years (1975–2025) using CPI estimates.
 
-Animates value transitions and shows results visually with a line graph.
+### Animates value transitions and shows results visually with a line graph.
 
 Offers a fun, student friendly inflation quiz with hints and answer feedback.
 
