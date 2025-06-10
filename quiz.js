@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
       } else {
         res.textContent = `❌ Not quite. The value was about $${correct.toFixed(2)}.`;
       }
-// used ai ^
+// used ai to produce values, get the value scripts, and get the emojis ^
       input.disabled = true;
       btn.textContent = q.next ? "Next" : "Finish";
       btn.dataset.answered = "true";
