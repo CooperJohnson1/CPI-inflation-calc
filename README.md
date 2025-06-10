@@ -1,9 +1,9 @@
 # CPI-inflation-calc
 
-##Welcome to the CPI Inflation Calculator, a tool created for an AP Computer Science Principles class project.
+## Welcome to the CPI Inflation Calculator, a tool created for an AP Computer Science Principles class project.
 
-##What the Website Does
-###Converts dollar values between years (1975–2025) using CPI estimates.
+## What the Website Does
+### Converts dollar values between years (1975–2025) using CPI estimates.
 
 Animates value transitions and shows results visually with a line graph.
 
