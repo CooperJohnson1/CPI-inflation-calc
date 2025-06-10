@@ -13,7 +13,10 @@ How to Use the Website
 Visit the live site: https://cooperjohnson1.github.io/CPI-inflation-calc/
 
 Screen shots:
-(![CPI-calculator (2)](https://github.com/user-attachments/assets/774d1cb4-f8f5-4dce-a035-8dce1e8737f6)
+
+![CPI-calculator](https://github.com/user-attachments/assets/c61f3313-08d8-485b-9ddc-615250d7e372)
+
+![CPI-calculator (2)](https://github.com/user-attachments/assets/cfd286b6-02c2-4d87-91c5-085c35d4fb23)
 
 
 Enter a dollar amount, select a "from" and "to" year.
