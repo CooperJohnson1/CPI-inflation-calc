@@ -19,24 +19,26 @@
 
 ### Visit the live site: https://cooperjohnson1.github.io/CPI-inflation-calc/
 
-### Enter a dollar amount, select a "from" and "to" year.
+### Enter a dollar amount, select a "from" and "to" year. (only between 1975 to 2025)
 
 ### View the adjusted value with a chart and fun facts.
 
 ### Take the quiz by clicking the "Take the Quiz" link. Try to guess how prices have changed over time.
 
-### Hints will help without spoiling the answers.
+### Hints will help without giving away the answers.
 
-## File Name	Description
+### Here is a quick Video guide on how to use: https://youtu.be/_r5CgMK_5ts
 
-index.html	Main page with the inflation calculator and chart display.
+### File Name	Description
 
-quiz.html	Quiz interface that shows one question at a time.
+### index.html	Main page with the inflation calculator and chart display.
 
-style.css	All styling for both pages 
+### quiz.html	Quiz interface that shows one question at a time.
 
-script.js	JavaScript for the calculator: handles input, CPI math, and graphing.
+### style.css	All styling for both pages 
 
-quiz.js	JavaScript for the quiz logic: tracks answers, hints, and question flow.
+### script.js	JavaScript for the calculator: handles input, CPI math, and graphing.
 
-cites: Chat GPT used to debug and code some of the harder parts of the code
+### quiz.js	JavaScript for the quiz logic: tracks answers, hints, and question flow.
+
+## cites: Chat GPT used to debug and code some of the harder parts of the code
