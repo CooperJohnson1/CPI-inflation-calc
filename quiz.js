@@ -1,9 +1,9 @@
-// quiz.js
+
 
 document.addEventListener("DOMContentLoaded", function () {
   const fromYear = parseInt(localStorage.getItem("fromYear"), 10);
   const toYear = 2025;
-
+// used Chat gpt for values
   const cpiData = {
     1975: 53.8,
     1985: 107.6,
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     2015: 237.0,
     2025: 280.0
   };
-
+//
   const avg2025Prices = {
     bread: 1.00,
     gas: 3.50,
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     combo: 9.00
   };
 
-  //
+//used chat gpt to debug and calculate
   function estimateCPI(year) {
     const years = Object.keys(cpiData).map(Number).sort((a, b) => a - b);
     if (cpiData[year]) return cpiData[year];
@@ -34,23 +34,23 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     return null;
   }
-
+  
   function inflationHint(from, to, itemKey) {
     const c1 = estimateCPI(from);
     const c2 = estimateCPI(to);
     if (!c1 || !c2) return "Data missing.";
-
-    // Value of $1 in 'to' year vs 'from' year
+//
+ 
     const oneValue = (c1 / c2) * 1;
-    // Average price in 'to' year
-    const avgPrice = avg2025Prices[itemKey];
-    // Percentage ratio
-    const percent = (oneValue / 1) * 100;
 
+    const avgPrice = avg2025Prices[itemKey];
+
+    const percent = (oneValue / 1) * 100;
+//
     return `In ${toYear}, $1 is worth $${oneValue.toFixed(2)} in ${from}.
     A ${itemKey} costs $${avgPrice.toFixed(2)} in ${toYear} and was about ${percent.toFixed(0)}% of the 2025 value in ${from}.`;
   }
-// made with AI ^
+// structure with AI ^
   if (fromYear) {
     document.getElementById("year1").textContent = fromYear;
     document.getElementById("hint1").textContent = inflationHint(fromYear, toYear, "bread");
